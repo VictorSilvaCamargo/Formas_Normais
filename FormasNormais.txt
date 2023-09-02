@@ -1,1 +1,20 @@
-p>>q
+Expressao: \forall x \exists y (\neg P(x) \land \neg Q(y))
+Mapeamento: P(x) = p, Q(y) = q
+
+Expressao: \forall x \exists y (P(x) \lor Q(y) \land R(x))
+Mapeamento: P(x) = p, Q(y) = q, R(x) = r
+
+Expressao: \forall x \exists y ((P(x) \Rightarrow Q(y)) \land (Q(y) \Rightarrow P(x)))
+Mapeamento: P(x) = p, Q(y) = q
+
+Expressao: \forall x \exists y (P(x) \land \neg Q(y) \lor R(x, y))
+Mapeamento: P(x) = p, Q(y) = q, R(x, y) = r
+
+Expressao: \forall x \exists y ((\neg P(x) \lor (Q(y) \land R(x))) \Leftrightarrow S(x, y))
+Mapeamento: P(x) = p, Q(y) = q, R(x) = r, S(x, y) = s
+
+Expressao: \forall x \exists y (\neg P(x) \land \neg Q(y) \land \neg R(x))
+Mapeamento: P(x) = p, Q(y) = q, R(x) = r
+
+Expressao: \forall x \exists y ((\neg P(x) \lor (\neg Q(y) \land \neg R(x))) \Leftrightarrow S(x, y))
+Mapeamento: P(x) = p, Q(y) = q, R(x) = r, S(x, y) = s
